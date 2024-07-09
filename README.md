@@ -14,7 +14,7 @@ In the realm of medical image fusion, integrating information from various modal
 
 The proposed framework for multi-modal retinal image fusion is illustrated below. The input images are first registered, followed by feature extraction and fusion using the Long-short Range (LSR) encoder and the Topology-Aware Encoder (TAE). The Graph Attention Network (GAT) dynamically refines and aggregates the node features to generate topology-aware graph features, which are then combined and decoded into the fused image.
 
-![Methodology](images/method.pdf)
+![Methodology](images/method.png)
 
 ### Graph Construction
 
@@ -22,10 +22,7 @@ The graph is constructed based on the segmentation of blood vessels from the ret
 
 ### Long-short Range Encoder
 
-The LSR Encoder is a dual-branch encoder extracting base and detail features across modalities. It consists of three main components:
-- Shared Feature Encoder (SFE)
-- Base Transformer Encoder (BTE)
-- Detail CNN Encoder (DCE)
+The LSR Encoder is a dual-branch encoder extracting base and detail features across modalities. It consists of three main components: Shared Feature Encoder (SFE), Base Transformer Encoder (BTE), Detail CNN Encoder (DCE)
 
 ### Topology Aware Encoder
 
@@ -42,7 +39,7 @@ The decoder reduces the channel of concatenated features and reconstructs the fu
 
 The following figure shows a visual comparison of the fusion results on DRFF and OCT2Confocal datasets.
 
-![Fusion Results](images/allresult.pdf)
+![Fusion Results](images/allresult.png)
 
 ## Getting Started
 
