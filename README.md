@@ -22,7 +22,7 @@ The graph is constructed based on the segmentation of blood vessels from the ret
 
 ### Long-short Range Encoder
 
-The LSR Encoder is a dual-branch encoder extracting base and detail features across modalities. It consists of three main components: Shared Feature Encoder (SFE), Base Transformer Encoder (BTE), Detail CNN Encoder (DCE)
+The LSR Encoder, adapted from [MMIF-CDDFuse](https://github.com/Zhaozixiang1228/MMIF-CDDFuse), is a dual-branch encoder extracting base and detail features across modalities. It consists of three main components:: Shared Feature Encoder (SFE), Base Transformer Encoder (BTE), Detail CNN Encoder (DCE)
 
 ### Topology Aware Encoder
 
