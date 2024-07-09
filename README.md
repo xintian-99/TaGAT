@@ -40,7 +40,7 @@ The decoder reduces the channel of concatenated features and reconstructs the fu
 The following figure shows a visual comparison of the fusion results on DRFF and OCT2Confocal datasets.
 
 ![Fusion Results](images/allresult.png)
-
+<!--
 ## Getting Started
 
 ### Prerequisites
@@ -60,3 +60,4 @@ Clone this repository and install the required packages:
 git clone https://github.com/xintian-99/TaGAT.git
 cd TaGAT
 pip install -r requirements.txt
+-->
