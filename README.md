@@ -2,7 +2,12 @@
 
 This repository contains the source code and models for the paper "TaGAT: Topology-Aware Graph Attention Network For Multi-modal Retinal Image Fusion," **accepted at MICCAI 2024**
 
+Xin Tian, Nantheera Anantrasirichai, Lindsay Nicholson, and Alin Achim
+
+
 The method introduces a novel Topology-Aware Graph Attention Network (TaGAT) designed for fusing multi-modal retinal images.
+
+-[*[Paper]*]([https://arxiv.org/abs/2311.10902](https://arxiv.org/abs/2407.14188))
 
 ## Abstract
 
