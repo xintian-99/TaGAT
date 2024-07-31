@@ -72,15 +72,15 @@ cd TaGAT
 pip install -r requirements.txt
 -->
 
-<!-- ## Citation
-
+## Citation
+```bibtex
 @article{tian2024tagat,
   title={TaGAT: Topology-Aware Graph Attention Network For Multi-modal Retinal Image Fusion},
   author={Tian, Xin and Anantrasirichai, Nantheera and Nicholson, Lindsay and Achim, Alin},
   journal={arXiv preprint arXiv:2407.14188},
   year={2024}
 }
+```
 
-For more information, refer to our publication or contact the dataset curator. -->
 
 
