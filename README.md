@@ -7,7 +7,7 @@ Xin Tian, Nantheera Anantrasirichai, Lindsay Nicholson, and Alin Achim
 
 The method introduces a novel Topology-Aware Graph Attention Network (TaGAT) designed for fusing multi-modal retinal images.
 
--[*[Paper]*](https://arxiv.org/abs/2407.14188)
+- [*[arXiv]*](https://arxiv.org/abs/2407.14188)
 
 ## Abstract
 
