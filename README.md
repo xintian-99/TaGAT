@@ -46,11 +46,21 @@ The following figure shows a visual comparison of the fusion results on DRFF and
 ### Prerequisites
 
 - Python 3.8+
-- PyTorch 1.8+
+- torch==1.8.1+cu111
 - torchvision
 - numpy
 - matplotlib
-- opencv-python
+- opencv-python 4.5.3.56
+- einops==0.4.1
+- kornia==0.2.0
+- numpy==1.21.5
+- opencv_python==4.5.3.56
+- scikit_image==0.19.2
+- scikit_learn==1.1.3
+- scipy==1.7.3
+- tensorboardX==2.5.1
+- timm==0.4.12
+
 
 ### Installation
 
@@ -61,3 +71,8 @@ git clone https://github.com/xintian-99/TaGAT.git
 cd TaGAT
 pip install -r requirements.txt
 -->
+
+### Citation
+
+@article{tian2024tagat,
+  title={TaGAT: Topology-Aware Graph Attention Network For Multi-modal Retinal Image Fusion},
